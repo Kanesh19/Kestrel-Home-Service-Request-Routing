@@ -1,0 +1,46 @@
+{
+  "training_rows": 10822,
+  "test_rows": 2178,
+  "canonical_team_count": 7,
+  "canonical_teams": [
+    "Billing",
+    "Filters & Consumables",
+    "Installs & Demo",
+    "Product Advice",
+    "Repairs",
+    "Returns & Replacement",
+    "Warranty Claims"
+  ],
+  "legacy_name_normalization": {
+    "Installations": "Installs & Demo",
+    "Consumables": "Filters & Consumables"
+  },
+  "time_holdout": {
+    "train_end_exclusive": "2026-05-01",
+    "validation_start": "2026-05-01",
+    "validation_end": "2026-06-30",
+    "rows": 1438,
+    "accuracy": 0.954798331015299,
+    "macro_f1": 0.9526989999732555
+  },
+  "random_holdout": {
+    "rows": 2165,
+    "accuracy": 0.9556581986143187,
+    "macro_f1": 0.9535223513502945
+  },
+  "historical_operations": {
+    "requests_with_transfer": 2696,
+    "transfer_rate": 0.24912215856588432,
+    "transfer_events": 3902,
+    "transfer_handling_cost_18mo_rs": 1190110,
+    "extra_contact_cost_18mo_rs": 700960,
+    "routing_cost_exposure_18mo_rs": 1891070,
+    "routing_cost_exposure_annualized_rs": 1260713.3333333333,
+    "vendor_licence_annual_rs": 320000,
+    "combined_direct_cost_exposure_annualized_rs": 1580713.3333333333
+  },
+  "data_quality": {
+    "repeated_request_text_values": 599,
+    "repeated_texts_with_conflicting_labels": 23
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "request_id": "SR-DEMO",
+  "created_at_ist": "2026-07-01 08:00",
+  "channel": "chat",
+  "product_family": "Water Purifier",
+  "warranty_status": "in_warranty",
+  "request_text": "display of purifier gone blank and not turning on",
+  "source": "crm"
+}
